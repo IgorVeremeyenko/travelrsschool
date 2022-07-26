@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="./asseets/img/favicons/favicon.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Magra:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Travel | #travel-part-2</title>
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="header_wrapper">
+                <div class="header_logo">
+                    <a href="/" class="header_logo-link">
+                        <img src="./asseets/logo.svg" alt="Logotype" class="header_logo-pick">
+                    </a>
+                    <span class="header_logo-title">Travel Portal</span>
+                </div>
+                <nav class="header_nav">
+                    <div class="header_nav_hamburger-menu" id="btn-menu">
+                                               
+                    </div>
+                    <div class="header_nav_adaptive_menu" id="menu">
+                        <button class="button-close" id="btn-close">
+                            <img src="./asseets/img/menu-close.svg" alt="Close menu">
+                        </button>
+                        <ul class="header_list_adaptive">
+                            <li class="header_item">
+                                <a href="#home" class="header_link-order1">How It Works</a>
+                            </li>
+                            <li class="header_item">
+                                <a href="#trip" class="header_link-order2">Plan Your Trip</a>
+                            </li>
+                            <li class="header_item">
+                                <a href="#dest" class="header_link-order3">Destinations</a>
+                            </li>
+                            <li class="header_item">
+                                <a href="#trvl" class="header_link-order4">Travel Stories</a>
+                            </li>
+                            <li class="header_item">
+                                <a href="#" id="account-button" class="header_link-order4">Account</a>
+                            </li>
+                            <li class="header_item">
+                                <a href="#footer" class="header_link-order4">Social Media</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="header_list">
+                        <li class="header_item">
+                            <a href="#home" class="header_link-order1">How It Works</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="#trip" class="header_link-order2">Plan Your Trip</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="#dest" class="header_link-order3">Destinations</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="#trvl" class="header_link-order4">Travel Stories</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="login-button" class="header_button-login">
+                    <button class="header_button">Login</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="preview" id="home">
+            <div class="wrapper">
+                <h1 class="preview_title">Explore the beauty of the World</h1>
+                <p class="preview_description">Receive personalized recommendations for countries, hotels, activities
+                    and
+                    more</p>
+                <label class="preview_label">
+                    <input class="preview_input" type="text" placeholder="What would you like to do?">
+                </label>
+                <button class="preview_button">Start Planning</button>
+            </div>
+        </section>
+        <section class="steps" id="trip">
+            <div class="wrapper">
+                <div class="steps_container">
+                    <h1 class="steps_title">3 STEPS TO THE PERFECT TRIP</h1>
+                    <div class="steps_options">
+                        <div class="steps-item-list" id="first_item">
+                            <div class="steps_item">
+                                <img src="./asseets/img/steps/1_steps.svg" alt="First steps">
+                            </div>
+                            <div class="steps_item-text">Tell us what you want to do</div>
+                        </div>
+                        <div class="steps-item-list" id="second_item">
+                            <div class="steps_item">
+                                <img src="./asseets/img/steps/2_steps.svg" alt="First steps">
+                            </div>
+                            <div class="steps_item-text">Share us preferable dates</div>
+                        </div>
+                        <div class="steps-item-list" id="third_item">
+                            <div class="steps_item">
+                                <img src="./asseets/img/steps/3_steps.svg" alt="First steps">
+                            </div>
+                            <div class="steps_item-text">We will give you recommendations</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="destinations" id="dest">
+            <h1>POPULAR DESTINATIONS</h1>
+            <ul class="destinations_slides">
+                <li class="destinations_slides-item" id="first_slide">
+                    <div class="destinations_slides-item-text">SPAIN</div>
+                    <div class="destinations_slides-item-buttons">
+                        <button class="destinations_slides-item-button-left">
+                            <img src="./asseets/img/arrow-slide-left.svg" width="30" height="30"
+                                alt="right button slide">
+                        </button>
+                        <button class="destinations_slides-item-button-right">
+                            <img src="./asseets/img/arrow-slide-right.svg" width="30" height="30"
+                                alt="left button slide">
+                        </button>
+                    </div>
+                </li>
+                <li class="destinations_slides-item" id="second_slide">
+                    <div class="destinations_slides-item-text">Japan</div>
+                    <button class="destinations_slides-item-button-left"></button>
+                    <button class="destinations_slides-item-button-right"></button>
+                </li>
+                <li class="destinations_slides-item" id="third_slide">
+                    <div class="destinations_slides-item-text">USA</div>
+                    <button class="destinations_slides-item-button-left"></button>
+                    <button class="destinations_slides-item-button-right"></button>
+                </li>
+            </ul>
+            <ul class="destinations_buttons">
+                <li class="destinations_buttons-item">
+                    <button class="destinations_buttons-btn"></button>
+                </li>
+                <li class="destinations_buttons-item">
+                    <button class="destinations_buttons-btn"></button>
+                </li>
+                <li class="destinations_buttons-item">
+                    <button class="destinations_buttons-btn"></button>
+                </li>
+            </ul>
+            <div class="destinations_show-more">
+                <button class="destinations_show-more-btn">
+                    <img src="./asseets/img/arrow-right.svg" alt="arrow right">
+                    <span class="destinations_show-more-btn-text">Find More</span>
+                </button>
+            </div>
+        </section>
+        <div class="background-bottom">
+            <div class="background-bottom-image"></div>
+            <div class="background-bottom-cover"></div>
+        </div>
+        <section class="stories" id="trvl">
+            <h1>TRAVEL STORIES</h1>
+            <div class="stories_list-block">
+                <ul class="stories_list">
+                    <li class="stories_list-item">
+                        <img src="./asseets/img/stories/stories1.png" alt="Stories 1">
+                        <div class="stories_list-description">
+                            <h2>10 Photos of Attractive Thailand</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor
+                                sit a... Read More <br><a href="#!">Read More</a></p>
+                        </div>
+                    </li>
+                    <li class="stories_list-item">
+                        <img src="./asseets/img/stories/stories2.png" alt="Stories 2">
+                        <div class="stories_list-description">
+                            <h2>Canyonlands National Park, Utah</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor
+                                sit a... Read More <br><a href="#!">Read More</a></p>
+
+                        </div>
+                    </li>
+                    <li class="stories_list-item">
+                        <img src="./asseets/img/stories/stories3.png" alt="Stories 3">
+                        <div class="stories_list-description">
+                            <h2>I left my heart in the Mountains!</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor
+                                sit a... Read More <br><a href="#!">Read More</a></p>
+
+                        </div>
+                    </li>
+                    <li class="stories_list-item">
+                        <img src="./asseets/img/stories/stories4.png" alt="Stories 4">
+                        <div class="stories_list-description">
+                            <h2>The Longest journey in my life!</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor
+                                sit a... Read More <br><a href="#!">Read More</a></p>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="stories-buttons">
+                <button class="stories-btn">
+                    <img src="./asseets/img/arrow-right.svg" alt="arrow right">
+                    <span class="stories-btn-text">See More</span>
+                </button>
+            </div>
+        </section>
+        <div id="overlay" class="overlay"></div>
+        <div id="register-popup">
+            <h2>Create account</h2>
+            <div class="form">
+                <div class="form-group">
+                    <div class="name">
+                        <label for="name">E-mail</label>
+                        <input type="text" id="name" name="email">
+                    </div>
+                    <div class="pass">
+                        <label for="password">Password</label>
+                        <input type="text" id="password" name="password">
+                    </div>
+                    <button class="sign">Sign Up</button>
+                    <div class="line"></div>
+                    <div class="have-account">
+                        Already have an account?<a href="#" id="login-switch">Log In</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="login-popup">
+            <h2>Log in to your account</h2>
+            <div class="form">
+                <div class="form-group">
+                    <button class="Facebook">
+                        <img src="./asseets/img/social/continueWithFacebook.svg" alt="Continue With Facebook">
+                        Sign In with Facebook
+                    </button>
+                    <button class="Google">
+                        <img src="./asseets/img/social/continueWithGoogle.svg" alt="Continue With Google">
+                        Sign In with Google
+                    </button>
+                    <div class="lines">
+                        <div class="line-1"></div>
+                        <p>or</p>
+                        <div class="line-2"></div>
+                    </div>
+                    <div class="name">
+                        <label for="name">E-mail</label>
+                        <input type="text" id="name" name="email">
+                    </div>
+                    <div class="pass">
+                        <label for="password">Password</label>
+                        <input type="text" id="password" name="password">
+                    </div>
+                    <button class="sign">Sign In</button>
+                    <div class="forgott-password">
+                        <a href="">Forgot Your Password?</a>
+                    </div>
+                    <div class="line-3"></div>
+                    <div class="have-account">
+                        Don’t have an account?<a href="#" id="register-button">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="footer_container">
+            <div class="footer-title">All Rights Reserved © Travel Portal</div>
+            <div class="social_media">
+                <ul class="social_media-list">
+                    <li class="social_media-item">
+                        <a href="https://www.instagram.com/igor_veremeyenko/" target="_blank"><img
+                                src="./asseets/img/social/instagram.svg" alt="Instagram"></a>
+                    </li>
+                    <li class="social_media-item">
+                        <img src="./asseets/img/social/youtube.svg" alt="Youtube">
+                    </li>
+                    <li class="social_media-item">
+                        <img src="./asseets/img/social/twitter.svg" alt="Twitter">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+<script src="script.js"></script>
+<script src="index.js"></script>
+</body>
+
+</html>
